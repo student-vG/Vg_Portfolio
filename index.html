@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vikram- Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./pic's/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="ind_style.css">
+
+    <script src="script.js"></script>
+</head>
+<body>
+<header class="head-page">
+    <!-- nav bar  -->
+<div class="container">
+        <nav class="nav-bar">
+        <ul class="nav-list non_slidebar">
+            <li><a href="#home" class="h-active"> Home</a></li>
+            <li><a href="#about-me"> About-me</a></li>
+            <li><a href="#project"> Projects</a></li>
+            <li><a href="#skills"> Skills</a></li>
+            <li><a href="#contact"> Contact</a></li>
+            <li class="hide"   onclick="showslidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="34px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+        <ul class="slidebar">
+          <li class="hidebar"  onclick="hideslidebar()"><a href="#"></a> <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="34px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li class="hidebar"><a href="#home" class="h-active"> Home</a></li>
+            <li class="hidebar" class="active"><a href="#about-me">About-me</a></li>
+          <li class="hidebar"  ><a href="#project">Projects</a></li>
+          <li class="hidebar" ><a href="#skills">Skills</a></li>
+          <li class="hidebar" ><a href="#contact">Contact</a></li>
+      </ul>
+<script>
+  function showslidebar() {
+  const x = document.querySelector(".slidebar");
+  x.style.display = 'flex'
+}
+function hideslidebar() {
+  const x = document.querySelector(".slidebar");
+  x.style.display = 'none'
+}</script>
+    </nav>
+    <div class="logo">
+        <a href="#" class="logo-name">vG</a>
+    </div>
+</div>
+
+
+<section id="header">
+    <div class="leftside-container">
+     <div class="img-div">
+        <img src="pic's\main-hero1.webp" alt="3D study image">
+        <!-- <img src="pic's/img1.png" alt="3D study image " > -->
+
+         <!-- <img src="pic's/mypic.png" alt="3D study image " > -->
+     </div>
+    </div>
+    <div class="rightside-container">
+     <!-- <div class="title-div"> -->
+         <h5 class="title-h5"> <span>Hello </span>it's me,</h5>
+         <h1 class="text-animated">I'm <span>Vikram <br>gudihal</span></h1>  
+         <p> Web Developer | BCA Graduate</p>      
+    </div>
+ </section>
+ <div class="more-btn">
+    <a href="#about-me" class="m-btn">More</a>
+</div>
+</header>
+<main id="main">
+    <!-- about section -->
+<section class="about-me" id="about-me">
+    <div class="abt-container">
+        <div class="About-content">
+          <h1 class="big">About</h1>
+          <h2 class="mb-4">About Me</h2>
+          <p>Hi, I'm Vikram G I have graduated with a BCA degree and i'm fresher . Here's some more information about me:</p>
+          <div class="about-table">
+              <table>
+                  <tr>
+                      <th>Name:</th>
+                      <td>Vikram Gudihal</td>
+                  </tr>
+                  <tr>
+                      <th>DOB:</th>
+                      <td>April 18, 2002</td>
+                  </tr>
+                  <tr>
+                      <th>Address:</th>
+                      <td>Rm Lohiya Nagar, Hubli, Karnataka</td>
+                  </tr>
+                  <tr>
+                      <th>Zip code:</th>
+                      <td>580030</td>
+                  </tr>
+                  <tr>
+                      <th>Email:</th>
+                      <td>Vikramgudihal@gmail.com</td>
+                  </tr>
+                  <tr>
+                      <th>Phone:</th>
+                      <td>+91-70223 67376</td>
+                  </tr>
+              </table>
+          </div>
+          <h3 class="prj"><span>12</span>Project completed</h3>
+      </div>
+        <div class="abt-img">
+          <div class="circle_bg"></div>
+            <img src="pic's/vgimg2.png" alt="Profile Picture">
+          </div>
+        </div>
+</div>
+</section><br>
+<!-- skills section -->
+<section id="skills"  class="skills">
+    <div class="skills-container">
+        <h1 class="big">Skill's</h1>
+        <h2 class="mb-4"> My Skills</h2>
+        <br>
+        <div class="s-container">
+      <div class="skill">
+        <h3>Editing</h3>
+        <p>Editing a video and photos</p>
+      </div>
+      <div class="skill">
+        <h3>Listening</h3>
+        <p>Listening kannada&hindi songs</p>
+      </div>
+      <div class="skill">
+        <h3>Coding</h3>
+        <p>Java using OOP's, HTML & CSS, Python programming language</p>
+      </div>
+      <div class="skill">
+        <h3>Languages</h3>
+        <p>Kannada , Hindi , English</p>
+      </div>
+    </div>
+    </div>
+  </section>
+<!-- our projects section -->
+<section id="project" class="projects">
+    <div class="p-container">
+<div class="projects-container">
+    <h1 class="big">Projects</h1>
+    <h2 class="mb-4"> MY Projects</h2>
+    <p>𝙸 𝚠𝚒𝚕𝚕 𝚠𝚒𝚗 𝚗𝚘𝚝 𝚒𝚖𝚖𝚎𝚍𝚒𝚊𝚝𝚎𝚕𝚢 𝚋𝚞𝚝 𝚍𝚎𝚏𝚒𝚗𝚒𝚝𝚎𝚕𝚢</p>
+
+    <br>
+
+<div class="p-content">
+    <div class="portfolio-container">
+
+        <div class="portfolio-item">
+          <img src="pic's/p1.png"  alt="Project 1">
+          <h3>Project-1</h3>
+          <p>Attraction Of Technology website </p>      
+       <a  target="_blank"  href="C:\Users\vikra\codes\project1(Article_page)\index.html">click me</a>
+         </ul></div>
+
+        <div class="portfolio-item">
+          <img src="pic's/p2.png" alt="Project 2">
+          <h3>Project-2</h3>
+          <p>Smart_Study website</p>
+       <a  target="_blank" href="C:\Users\vikra\codes\project5(study_material)\index.html">click me</a>
+         </ul></div>
+
+         <div class="portfolio-item">
+          <img src="pic's/p3.png" alt="Project 3">
+          <h3>Project-3</h3>
+          <p>portfolio website-2</p>
+       <a  target="_blank" href="C:\Users\vikra\codes\protofolio-2\index.html">click me</a>
+         </ul></div>
+
+         <div class="portfolio-item">
+            <img src="pic's/p4.png" alt="Project 4">
+            <h3>Project-4</h3>
+            <p>portfolio website-1</p>
+         <a target="_blank" href="C:\Users\vikra\codes\project2(protofolio)\index.html">click me</a>
+           </ul></div>
+
+           <div class="portfolio-item">
+            <img src="pic's/p5.png" alt="Project 5">
+            <h3>Project-5</h3>
+            <p>cloned a our college new website</p>
+         <a  target="_blank" href="C:\Users\vikra\codes\project_chetancollge2\index.html">click me</a>
+           </ul></div>
+
+           <div class="portfolio-item">
+            <img src="pic's/p6(2).png" alt="Project 6">
+            <h3>Project-6</h3>
+            <p>Cloned Amazon.com Website</p>
+         <a target="_blank" href="C:\Users\vikra\codes\project_10(Amazon clone)\index.html">click me</a>
+           </ul></div>
+
+        
+
+           
+          
+</div>
+</div>
+</section>
+
+<!-- more btn css  -->
+<details>
+  <summary class="button">More...</summary><br><br>
+  <div class="portfolio-container">
+  <div class="portfolio-item">
+    <img src="pic's/p7.png" alt="Project 7">
+    <h3>Project-7</h3>
+    <p>loading page</p>
+ <a target="_blank" href="C:\Users\vikra\codes\load project\loading_page.html">click me</a>
+   </ul></div>
+
+      <div class="portfolio-item">
+      <img src="pic's/p8.png" alt="Project 8">
+      <h3>Project-8</h3>
+      <p>responsive calculator</p>
+   <a target="_blank" href="C:\Users\vikra\codes\project-9 (calculator)\cal_index.html">click me</a>
+     </ul></div>
+
+      <div class="portfolio-item">
+      <img src="pic's/p9.png" alt="Project 9">
+      <h3>Project-9</h3>
+      <p>college website(own)-3</p>
+   <a target="_blank" href="C:\Users\vikra\codes\project_chetancollege3\index_3.html">click me</a>
+     </ul></div>
+
+         <div class="portfolio-item">
+        <img src="pic's/p10.png" alt="Project 10">
+        <h3>Project-10</h3>
+        <p> My First Responsive gaming Home page </p>
+     <a target="_blank" href="C:\Users\vikra\codes\project-10(game page)\game_idx.html">click me</a>
+       </ul></div> 
+
+              <div class="portfolio-item">
+          <img src="pic's/p11.png" alt="Project 11">
+          <h3>Project-11</h3>
+          <p> Anglog clock  </p>
+       <a target="_blank" href="C:\Users\vikra\codes\project-11(Anglog clock)\index.html">click me</a>
+         </ul></div>
+
+         <div class="portfolio-item">
+          <img src="pic's/p6.png" alt="Project 12">
+          <h3>Project-12</h3>
+          <p>Cloned a our college old website</p>
+       <a target="_blank" href="C:\Users\vikra\codes\project_chetancollege1\chetanclgweb.html">click me</a>
+         </ul></div>
+
+        </div>
+</details>
+<br>
+</main>
+
+
+
+<footer id="contact">
+
+
+    <div class="f-container">
+        <h1 class="big">contact</h1>
+        <h2 class="mb-4"> contact-me</h2>
+
+    <div class="footer-content">
+        <h3 style="text-align: start;">Follow Us</h3><br>
+        <p>Follow us on social media to get the latest updates.</p><br>
+        <div class="socials" id="contact">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            <br>
+       
+            <div class="footer-content">
+              <h3 style="text-align: start; margin-top: 80px;">Get in Touch</h3><br>
+              <p>Have any questions or want to collaborate? Send me a message!</p><br>
+           
+              <form  action="https://api.web3forms.com/submit" method="POST">
+                
+                <input type="hidden" name="access_key" value="0b9c2290-b326-4210-a354-3e6e6943ff85">
+                
+                <div class="form_name">
+                  <label for="name">Name:</label><br>
+                  <input type="text" placeholder= "Name" required name="name">
+
+                </div>
+                <div class="form_mail">
+                  <label for="email">Email:</label><br>
+                  <input type="email" placeholder="Email" required name="email">
+                </div>
+                <div class="form_message">
+                  <label for="message">Message:</label><br>
+                  <textarea placeholder="Message" required name="message"></textarea>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                  <div class="submit-btn">
+                    <button>
+                      <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                              fill="currentColor"
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>Send</span>
+                    </button>
+                    
+                  </div>
+              </form>
+          </div>
+    
+        <div class="credits">
+            <p>© 2024 All rights reserved.</p>
+            <h4>Website Developed  by vikram G</h4>
+            <p class="p-vg">Thank YOu </p>
+        </div>
+
+  
+        </div>
+</footer>
+<!-- tap to up -->
+<div class="top-btn" id="btn">
+  <button class="top-btn-link" ><i class="fa-solid fa-angle-up fa-flip-horizontal" style="color: #000000;"></i></button>
+  <script>
+      let mybutton = document.getElementById("btn");
+      mybutton.addEventListener("click", ()=>{
+          window.scrollTo({top: 0, behavior: 'smooth'});
+      })
+
+  </script>
+  
+</div>
+</body>
+
+</html>
