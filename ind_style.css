@@ -294,7 +294,7 @@ filter: hue-rotate(360deg);
   letter-spacing: 0.2rem;
   & span {
     color: var(--color);
-    background: var(--lg8);
+    background: var(--lg6);
     background-clip: text;
     text-overflow: clip;
     -webkit-background-clip: text;
@@ -425,7 +425,7 @@ filter: hue-rotate(360deg);
     letter-spacing: 0.2rem;
     & span {
       color: var(--color);
-      background: var(--lg2);
+      background: var(--lg6);
       background-clip: text;
       text-overflow: clip;
       -webkit-background-clip: text;
