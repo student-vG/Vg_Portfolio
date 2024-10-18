@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="ind_style.css">
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </head>
 <body>
 <header class="head-page">
     <!-- nav bar  -->
-<div class="container">
+<div class="container ">
         <nav class="nav-bar">
         <ul class="nav-list non_slidebar">
             <li><a href="#home" class="h-active"> Home</a></li>
@@ -24,7 +24,7 @@
             <li><a href="#contact"> Contact</a></li>
             <li class="hide"   onclick="showslidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="34px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
         </ul>
-        <ul class="slidebar">
+        <ul class="slidebar ani-slide-in">
           <li class="hidebar"  onclick="hideslidebar()"><a href="#"></a> <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="34px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
             <li class="hidebar"><a href="#home" class="h-active"> Home</a></li>
             <li class="hidebar" class="active"><a href="#about-me">About-me</a></li>
@@ -48,7 +48,7 @@ function hideslidebar() {
 </div>
 
 
-<section id="header">
+<section id="header" class="">
     <div class="leftside-container">
      <div class="img-div">
         <img src="pic's\main-hero1.webp" alt="3D study image">
@@ -57,10 +57,11 @@ function hideslidebar() {
          <!-- <img src="pic's/mypic.png" alt="3D study image " > -->
      </div>
     </div>
-    <div class="rightside-container">
+    <div class="rightside-container  box-anim hidden-ani">
      <!-- <div class="title-div"> -->
-         <h5 class="title-h5"> <span>Hello </span>it's me,</h5>
-         <h1 class="text-animated">I'm <span>Vikram </span></h1>  
+         <!-- <h5 class="title-h5"> <span>Hello </span>it's me,</h5> -->
+         <h5 class="title-h5"><span>Hey there, </span>I'm</h5>
+         <h1 class="text-animated">I'm <span>Vikram <br> gudihal</span></h1>  
          <p> Web Developer | BCA Graduate</p>      
     </div>
  </section>
@@ -72,10 +73,10 @@ function hideslidebar() {
     <!-- about section -->
 <section class="about-me" id="about-me">
     <div class="abt-container">
-        <div class="About-content">
+        <div class="About-content  box-anim hidden-ani">
           <h1 class="big">About</h1>
           <h2 class="mb-4">About Me</h2>
-          <p>Hi, I'm Vikram G I have graduated with a BCA degree and i'm fresher . Here's some more information about me:</p>
+          <p>Hi, I'm Vikram G, a recent BCA graduate. I'm a fresher with a passion for web development and technology, eager to start my career.</p>
           <div class="about-table">
               <table>
                   <tr>
@@ -88,25 +89,25 @@ function hideslidebar() {
                   </tr>
                   <tr>
                       <th>Address:</th>
-                      <td> Karnataka</td>
+                      <td>Rm Lohiya Nagar, Hubli, Karnataka</td>
                   </tr>
                   <tr>
                       <th>Zip code:</th>
-                      <td>580029</td>
+                      <td>580030</td>
                   </tr>
                   <tr>
                       <th>Email:</th>
-                      <td>Vikramg@gmail.com</td>
+                      <td>Vikramgudihal@gmail.com</td>
                   </tr>
                   <tr>
                       <th>Phone:</th>
-                      <td>+91-1234568987</td>
+                      <td>+91-70223 67376</td>
                   </tr>
               </table>
           </div>
-          <h3 class="prj"><span>12</span>Project completed</h3>
+          <h3 class="prj"><span>12</span>Project's Completed</h3>
       </div>
-        <div class="abt-img">
+        <div class="abt-img ">
           <div class="circle_bg"></div>
             <img src="pic's/vgimg2.png" alt="Profile Picture">
           </div>
@@ -114,8 +115,8 @@ function hideslidebar() {
 </div>
 </section><br>
 <!-- skills section -->
-<section id="skills"  class="skills">
-    <div class="skills-container">
+<section id="skills"  class="skills ">
+    <div class="skills-container box-anim hidden-ani ">
         <h1 class="big">Skill's</h1>
         <h2 class="mb-4"> My Skills</h2>
         <br>
@@ -150,9 +151,9 @@ function hideslidebar() {
     <br>
 
 <div class="p-content">
-    <div class="portfolio-container">
+    <div class="portfolio-container ">
 
-        <div class="portfolio-item">
+        <div class="portfolio-item ">
           <img src="pic's/p1.png"  alt="Project 1">
           <h3>Project-1</h3>
           <p>Attraction Of Technology website </p>      
@@ -256,16 +257,13 @@ function hideslidebar() {
 
 
 <footer id="contact">
-
-
-    <div class="f-container">
+    <div class="f-container ">
         <h1 class="big">contact</h1>
         <h2 class="mb-4"> contact-me</h2>
 
-    <div class="footer-content">
-        <h3 style="text-align: start;">Follow Us</h3><br>
-        <p>Follow us on social media to get the latest updates.</p><br>
-        <div class="socials" id="contact">
+    <div class="footer-content ">
+        <p style="margin-top:30px; font-size:14px;">Follow us on social media for the latest updates, news, and exclusive content!.</p><br>
+        <div class="socials box-anim hidden-ani" id="contact">
             <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -273,7 +271,7 @@ function hideslidebar() {
             </div>
             <br>
        
-            <div class="footer-content">
+            <div class="footer-content box-anim hidden-ani">
               <h3 style="text-align: start; margin-top: 80px;">Get in Touch</h3><br>
               <p>Have any questions or want to collaborate? Send me a message!</p><br>
            
@@ -328,17 +326,25 @@ function hideslidebar() {
   
         </div>
 </footer>
+
 <!-- tap to up -->
+ 
 <div class="top-btn" id="btn">
-  <button class="top-btn-link" ><i class="fa-solid fa-angle-up fa-flip-horizontal" style="color: #000000;"></i></button>
+  <button class="top-btn-link" ><i class="fa-solid fa-angle-up fa-flip-horizontal"></i></button>
   <script>
       let mybutton = document.getElementById("btn");
+      window.addEventListener("scroll", () => {
+          if (window.scrollY === 0) {
+            mybutton.style.display = 'none';
+          } else {
+            mybutton.style.display = 'block';
+          }
+        });
       mybutton.addEventListener("click", ()=>{
           window.scrollTo({top: 0, behavior: 'smooth'});
       })
 
   </script>
-  
 </div>
 </body>
 
