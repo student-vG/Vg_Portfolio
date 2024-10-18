@@ -9,6 +9,7 @@
   color: rgb(255, 255, 255);
 }
 body {
+  overflow:hidden;
   background-color: #000;
 }
 
@@ -266,6 +267,7 @@ body {
 section {
   display: flex;
   margin-right: 50px;
+  overflow:hidden;
 }
 .leftside-container {
   width: 45%;
@@ -411,6 +413,7 @@ filter: hue-rotate(360deg);
     display: grid;
     align-items: center;
     place-items: start;
+    overflow:hidden;
   }
 
   .leftside-container {
@@ -697,6 +700,7 @@ filter: hue-rotate(360deg);
     width: 100%;
     height: 80vh;
     margin-bottom: 40rem;
+    overflow: hidden;
   }
   .abt-container {
     width: 90%;
@@ -809,6 +813,7 @@ filter: hue-rotate(360deg);
 /* skills css start */
 
 .skills-container {
+  overflow:hidden;
   text-align: center;
   margin: 40px;
   margin-top: 80px;
@@ -875,6 +880,7 @@ filter: hue-rotate(360deg);
     bottom: 0;
     /* padding: 20px; */
     border-radius: 25px;
+    overflow:hidden;
     border: 1px solid rgba(137, 43, 226, 0.123);
 
     & .big {
@@ -1509,6 +1515,7 @@ html::-webkit-scrollbar-thumb:active {
     padding: 0;
     height: 50vh;
     border-radius: 25px;
+    overflow:hidden;
     background-color: #5d5a5a0f;
   }
   .socials {
@@ -2095,20 +2102,20 @@ details .portfolio-item a {
 .box-anim {
   filter: blur(1px);
   opacity: 0.8;
-  transform: translateX(-50px); /* Elements are shifted downward initially */
+  transform: translateY(-40px); /* Elements are shifted downward initially */
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
 .box-anim.visible {
   filter: blur(0);
   opacity: 1;
-  transform: translateX(0); /* Reset position when visible */
+  transform: translateY(0); /* Reset position when visible */
 }
 
 .hidden-ani {
   filter: blur(2px);
   opacity: 0.3;
-  transform: translateX(-50px); /* Apply this while hidden */
+  transform: translateY(-40px); /* Apply this while hidden */
 }
 
 /*** tap to up css ***/
@@ -2127,6 +2134,7 @@ details .portfolio-item a {
   cursor: pointer;
   transition: all linear 0.4s;
   color: #ffffff;
+  overflow:hidden;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   background-image: linear-gradient(-225deg, #FFFEFF 0%, #00fffb 100%);
